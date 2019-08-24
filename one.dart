@@ -1,17 +1,19 @@
+import './two.dart';
 void main(){
-  int a = 100; // Explicit Type
-  var b  = 200.90; // Implicit Type
-  b = 1000.999;
-  //b = 'Hello';
-  var s = new StringBuffer(100);
-  
-  StringBuffer sb = new StringBuffer(100);
-  String e = "Hello";
-  double rr = 90.20;
-  String r = e + " Ok ";
-
+  A obj = new A();
+  obj.show();
+  Function myType = obj.show;
+  print(myType.runtimeType);
+  print(A.disp());
+  String msg = "Hello";
+  var x = 190;
+  print(x.runtimeType);
+  var w = "Hello";
+  print(w.runtimeType);
+  int a = 100;
+  int b = 200;
+  //int c = a + b;
   print("A is $a");
-  print("A is "+a.toString());
-  print("A is ${a.runtimeType}");
-  print("B is ${b.runtimeType}");
+  print("Sum is ${a+b}");
+
 }
