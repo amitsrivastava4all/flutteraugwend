@@ -1,6 +1,6 @@
-import './a.dart' as a1;
-import './b.dart' as b1;
+import 'a.dart';
+import 'b.dart' as bb;
 void main(){
-  a1.show();
-  b1.show();
+  add();
+  bb.add();
 }

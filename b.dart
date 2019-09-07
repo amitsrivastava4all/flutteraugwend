@@ -1,3 +1,3 @@
-void show(){
-  print("B show");
+add(){
+  print("I am Add of B");
 }
