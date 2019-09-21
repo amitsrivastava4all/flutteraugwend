@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-import './views/converter.dart';
+import './widgets/calc.dart';
 
 void main() {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    title: 'Unit Converter',
-    home: Converter(),
+    title: 'Basic Calc',
+    home: Calc(),
   ));
 }
