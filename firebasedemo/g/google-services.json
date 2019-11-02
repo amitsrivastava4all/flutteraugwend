@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "354386682561",
+    "firebase_url": "https://appflutter-1f4e4.firebaseio.com",
+    "project_id": "appflutter-1f4e4",
+    "storage_bucket": "appflutter-1f4e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354386682561:android:8a772d3e65c60b13a96a40",
+        "android_client_info": {
+          "package_name": "com.brain.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354386682561-cv8ljf3d87r06l69hve7u8jjnnuq0o59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZJy7P7dbR3-iRdCfVWZpGTJxw5eC6oyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354386682561-cv8ljf3d87r06l69hve7u8jjnnuq0o59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
